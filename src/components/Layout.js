@@ -8,6 +8,9 @@ export default function Layout({ children, pageTitle, pageDescription }) {
                 <title>{pageTitle}</title>
                 <meta name="description" content={pageDescription} />
 
+
+
+
             </Head>
             <Navbar />
                 <main className=" p-2" >{children}</main>
